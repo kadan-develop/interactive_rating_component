@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 20px;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  color: hsl(217, 12%, 63%);
+}
+
+li {
+  font-size: 15px;
+  margin-right: 1px;
+  list-style-type: none;
+  cursor: pointer;
+  color: hsl(217, 12%, 63%);
+}
+
+li:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+main {
+  width: 380px;
+  height: 380px;
+  border-radius: 25px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+#rating-state {
+  margin: 0 28px 28px 28px;
+}
+
+#numbers {
+  column-gap: 22px;
+}
+
+.submit {
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 13px;
+  margin-top: 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.margin-for-star {
+  margin: 25px 0 25px 0;
+}
+
+.circle {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: hsl(214, 19%, 22%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.display-none {
+  display: none;
+}
+
+/* Display content */
+.visible {
+  display: none !important;
+}
+
+/* Thank you state */
+
+#thank-you-state {
+  margin: 25px 0 25px 0;
+  row-gap: 25px;
+  flex-direction: column;
+}
+
+.thank-you-img {
+  margin-top: 25px;
+  width: 150px;
+}
+
+.rating-p {
+  border-radius: 50px;
+  padding: 5px 20px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(214, 19%, 22%);
+}
+
+.thanks {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.thanks > p {
+  font-size: 15px;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-size: 1.75rem;
+}
+
+/* Global style _ repetable code*/
+.center-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mobile design  */
+@media screen and (max-width: 480px) {
+  
+  /* Rating state */
+  main {
+    width: 350px;
+    height: 380px;
+    border-radius: 15px;
+  }
+
+  #rating-state {
+    margin: 0 20px 20px 20px;
+  }
+
+  #numbers {
+    column-gap: 18px;
+  }
+
+  .submit{
+    padding:16px;
+  }
+
+  .btn{
+    text-align: center;
+  }
+
+  .submit[value]{
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  /* Thank you state */
+  .thank-you-img {
+    margin-top: 15px;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+}
