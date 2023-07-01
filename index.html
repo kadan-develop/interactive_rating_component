@@ -33,24 +33,24 @@
                 </div>
                 <div>
                     <ul id="numbers" class="center-items">
-                        <li class="circle center-items">
-                            <input id= num1 class="display-none" type="checkbox">
+                        <li class="li-item circle center-items">
+                            <input id=num1 class="display-none" type="checkbox">
                             <label for="num1">1</label>
                         </li>
-                        <li class="circle center-items">
-                            <input id= num2 class="display-none" type="checkbox">
+                        <li class="li-item circle center-items">
+                            <input id=num2 class="display-none" type="checkbox">
                             <label for="num2">2</label>
                         </li>
-                        <li class="circle center-items">
-                            <input id= num3 class="display-none" type="checkbox">
+                        <li class="li-item circle center-items">
+                            <input id=num3 class="display-none" type="checkbox">
                             <label for="num3">3</label>
                         </li>
-                        <li class="circle center-items">
-                            <input id= num4 class="display-none" type="checkbox">
+                        <li class="li-item circle center-items">
+                            <input id=num4 class="display-none" type="checkbox">
                             <label for="num4">4</label>
                         </li>
-                        <li class="circle center-items">
-                            <input id= num5 class="display-none" type="checkbox">
+                        <li class="li-item circle center-items">
+                            <input id=num5 class="display-none" type="checkbox">
                             <label for="num5">5</label>
                         </li>
                     </ul>
@@ -81,6 +81,62 @@
                     </p>
                 </div>
             </div>
+            <!-- If user doesnt select any number -->
+
+            <div id="error-msg" class="visible center-items">
+
+                <div class="circle back-btn">
+                    <!-- <img class='back-arrow'
+                        src="/images/arrow-left-svgrepo-com.svg"> -->
+                    <?xml version="1.0" ?>
+
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg width="25px" height="25px"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+
+                        <title />
+
+                        <g id="Complete">
+
+                            <g id="arrow-left">
+
+                                <g>
+
+                                    <polyline data-name="Right" fill="none"
+                                        id="Right-2"
+                                        points="7.6 7 2.5 12 7.6 17"
+                                        stroke="hsl(25, 97%, 53%)"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" />
+
+                                    <line fill="none"
+                                        stroke="hsl(25, 97%, 53%)"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2"
+                                        x1="21.5" x2="4.8" y1="12" y2="12" />
+
+                                </g>
+
+                            </g>
+
+                        </g>
+
+                    </svg>
+                </div>
+
+                <img class="thank-you-img"
+                    src="./images/illustration-thank-you.svg" alt="thankyoou
+                    img">
+
+                <div class="error">
+                    <h2>Ooops!</h2>
+                    <p>
+                        You must pick some number, between 1 and 5.
+                    </p>
+                </div>
+            </div>
+
         </main>
         <!-- Footer -->
         <footer class="attribution">

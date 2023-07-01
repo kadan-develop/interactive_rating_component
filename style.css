@@ -43,6 +43,7 @@ li:hover {
 }
 
 main {
+  position: relative;
   width: 380px;
   height: 380px;
   border-radius: 25px;
@@ -141,8 +142,53 @@ h2 {
   font-size: 1.75rem;
 }
 
+/* Error msg */
+
+#error-msg {
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+}
+
+#error-msg img {
+  margin-top: 75px;
+}
+
+.error {
+  margin: 30px 20px;
+}
+
+.error h2 {
+  font-size: 25px;
+}
+
+.error p {
+  display: inline-block;
+  width: 80%;
+  font-size: 18px;
+}
+
+.back-btn {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  cursor: pointer;
+}
+
+svg {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.focus {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
 /* Global style _ repetable code*/
-.center-items{
+.center-items {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +196,6 @@ h2 {
 
 /* Mobile design  */
 @media screen and (max-width: 480px) {
-  
   /* Rating state */
   main {
     width: 350px;
@@ -166,15 +211,15 @@ h2 {
     column-gap: 18px;
   }
 
-  .submit{
-    padding:16px;
+  .submit {
+    padding: 16px;
   }
 
-  .btn{
+  .btn {
     text-align: center;
   }
 
-  .submit[value]{
+  .submit[value] {
     font-size: 15px;
     font-weight: 700;
   }
@@ -184,7 +229,7 @@ h2 {
     margin-top: 15px;
   }
 
-  h2{
+  h2 {
     font-size: 1.5rem;
   }
 }
