@@ -7,8 +7,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-PQUIenSB6G)
+- Live Site URL: [Live Site](https://extraordinary-wisp-8f0c86.netlify.app/)
 
 ## My process
 
